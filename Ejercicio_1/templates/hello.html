@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<head>
+    <title>Cat Facts</title>
+</head>
+<body>
+    <ul>
+       {% for fact in data %}
+        <li>{{fact['fact']}}</li>
+       {% endfor%}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Proyecto: {{name}}</h1>
+    <ul>
+        {% for project in projects %}
+        <li>{{project}}</li>
+       {% endfor%}
+    </ul>   
+    <h1>Usuarios</h1>
+    {% for user in users %}
+        <li>{{user}}</li>
+       {% endfor%}
+</body>
+</html>
